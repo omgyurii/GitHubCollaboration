@@ -9,11 +9,15 @@ import SwiftUI
 
 struct germanyview: View {
     var body: some View {
-        Text("🇩🇪 Willkommen in Deutschland!")
-            .font(.largeTitle)
-            .padding()
+        Text("🇩🇪 Welcome to Germany!")
+            .font(.system(size:33))
+        Text("     willkommen in Deutschland!")
+            .font(.system(size:22))
+            .italic()
         Text("‣ Explore the culture, cuisine, and beauty of Germany.")
-            .padding()
+            .padding(10)
+        
+        Spacer()
     }
 }
 

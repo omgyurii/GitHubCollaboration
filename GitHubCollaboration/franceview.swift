@@ -9,11 +9,15 @@ import SwiftUI
 
 struct franceview: View {
     var body: some View {
-        Text("🇫🇷 Bienvenue en France!")
-            .font(.largeTitle)
-            .padding()
+        Text("🇫🇷 Welcome to France!")
+            .font(.system(size:35))
+        Text("Bienvenue en France!")
+            .font(.system(size:22))
+            .italic()
         Text("‣ Explore the culture, cuisine, and beauty of France.")
-            .padding()
+            .padding(10)
+        
+        Spacer()
     }
 }
 

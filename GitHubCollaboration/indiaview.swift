@@ -9,11 +9,15 @@ import SwiftUI
 
 struct indiaview: View {
     var body: some View {
-        Text("🇮🇳 Namaste, welcome to India!")
-            .font(.largeTitle)
-            .padding()
+        Text("🇮🇳 Welcome to India!")
+            .font(.system(size:35))
+        Text("भारत में स्वागत है!")
+            .font(.system(size:27))
+            .italic()
         Text("‣ Explore the culture, cuisine, and beauty of India.")
-            .padding()
+            .padding(10)
+        
+        Spacer()
     }
 }
 
